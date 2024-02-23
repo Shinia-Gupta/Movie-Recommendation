@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendation</title>
+<link rel="stylesheet" href="style.css">  </head>
+  <body>
+    <header>
+      <h1 id="appTitle">Movie Recommendation</h1>
+    </header>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres">
+      </select>
+    </form>
+    <button id="playBtn">Search</button>
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieText"></div>
+    </div>
+    <div id="nextDiv" >
+        <button id="prevBtn" hidden>Previous</button>
+        <button id="nextBtn" hidden>Next</button>
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
